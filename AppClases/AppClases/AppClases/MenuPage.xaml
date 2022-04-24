@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppClases.MenuPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20">
+            
+     
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="Black"/>
+
+            <Grid VerticalOptions="FillAndExpand"  >
+                <Grid.RowDefinitions HorizontalOptions="StartAndExpand"  >
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40"  />
+                    <RowDefinition Height="40"  />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions HorizontalOptions="StartAndExpand" >
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Grid.Row="0" Text="Nombre Alumno:" TextColor="Black" />
+                <Label Grid.Column="0" Grid.Row="1" Text="Cedula Alumno:" TextColor="Black"/>
+                <Label Grid.Column="0" Grid.Row="3" Text="Nota Parcial 1:" TextColor="Black"/>
+                <Label Grid.Column="0" Grid.Row="4" Text="Nota Examen 1:" TextColor="Black"/>
+
+                <Label Grid.Column="1" Grid.Row="2" Text="MOMENTO 1" TextColor="Red"/>
+                <Entry Grid.Column="1" Grid.Row="0" x:Name="_nombre" Placeholder="Nombre Alumno" TextColor="Black" />
+                <Entry Grid.Column="1" Grid.Row="1" x:Name="_cedula" Placeholder="Cedula Alumno" TextColor="Black"/>
+                <Entry Grid.Column="1" Grid.Row="3" x:Name="_n11" Placeholder="Nota Parcial" TextColor="Black"/>
+                <Entry Grid.Column="1" Grid.Row="4" x:Name="_n12" Placeholder="Nota Examen" TextColor="Black"/>
+
+                <Label Grid.Column="2" Grid.Row="2" Text="MOMENTO 2" TextColor="Red"/>
+                <Entry Grid.Column="2" Grid.Row="3" x:Name="_n21" Placeholder="Nota Parcial" TextColor="Black"/>
+                <Entry Grid.Column="2" Grid.Row="4" x:Name="_n22" Placeholder="Nota Examen" TextColor="Black"/>
+
+            </Grid>
+            <Button Grid.Column="2" Text="Ingresar Notas" Clicked="Btn_notas" BackgroundColor="Green" TextColor="White" CornerRadius="20" />
+            
+            <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="Black"/>
+
+            <Label  Text="Seleccione un Alumno para mas información" TextColor="DarkGreen"/>
+            
+            <ListView x:Name="AlumnosView"
+            ItemsSource="{Binding ListAlum}" SelectedItem="{Binding Alumno}}" ItemSelected="AlumnosView_ItemSelected" >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding nombre}"  TextColor="Black"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+                
+                <BoxView HorizontalOptions="FillAndExpand" HeightRequest="5" Color="Black"/>
+
+            <Grid VerticalOptions="FillAndExpand"  >
+                <Grid.RowDefinitions HorizontalOptions="StartAndExpand"  >
+                    <RowDefinition Height="40" />
+                    <RowDefinition Height="40" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions HorizontalOptions="StartAndExpand" >
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                    <ColumnDefinition  />
+                </Grid.ColumnDefinitions>
+                <Label Grid.Column="0" Grid.Row="0" Text="Nombre Alumno" TextColor="Red" />
+                <Label Grid.Column="1" Grid.Row="0" Text="Parcial 1" TextColor="Red" />
+                <Label Grid.Column="2" Grid.Row="0" Text="Parcial 2" TextColor="Red" />
+                <Label Grid.Column="3" Grid.Row="0" Text="Nota Final" TextColor="Red" />
+
+                <Label Grid.Column="0" Grid.Row="1" x:Name="nombre" TextColor="Black"/>
+                <Label Grid.Column="1" Grid.Row="1" x:Name="nota1" TextColor="Black"/>
+                <Label Grid.Column="2" Grid.Row="1" x:Name="nota2" TextColor="Black"/>
+                <Label Grid.Column="3" Grid.Row="1" x:Name="notaF" TextColor="Black"/>
+
+            </Grid>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

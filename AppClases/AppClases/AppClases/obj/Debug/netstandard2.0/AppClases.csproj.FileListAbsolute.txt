@@ -1,0 +1,15 @@
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\bin\Debug\netstandard2.0\AppClases.deps.json
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\bin\Debug\netstandard2.0\AppClases.dll
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\bin\Debug\netstandard2.0\ref\AppClases.dll
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\bin\Debug\netstandard2.0\AppClases.pdb
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\MenuPage.xaml.g.cs
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\AppClases.AssemblyInfoInputs.cache
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\AppClases.AssemblyInfo.cs
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\AppClases.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\AppClases.dll
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\ref\AppClases.dll
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\AppClases.pdb
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\AppClases.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\repos\AppClases\AppClases\AppClases\obj\Debug\netstandard2.0\Login.xaml.g.cs
